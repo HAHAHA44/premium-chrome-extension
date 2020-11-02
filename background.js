@@ -10,7 +10,7 @@ chrome.runtime.onInstalled.addListener(function() {
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [new chrome.declarativeContent.PageStateMatcher({
-        pageUrl: {hostEquals: 'logservice.agora.io'},
+        pageUrl: {hostEquals: 'webdemo.agora.io'},
       })
       ],
           actions: [new chrome.declarativeContent.ShowPageAction()]

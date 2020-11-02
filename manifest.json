@@ -1,5 +1,5 @@
 {
-  "name": "Agora Log Sorter Test",
+  "name": "Extension Test",
   "description" : "Base Level Extension",
   "version": "1.0",
   "permissions": ["activeTab", "declarativeContent", "storage"],
@@ -10,5 +10,6 @@
   "page_action": {
     "default_popup": "popup.html"
   },
+  "web_accessible_resources": ["script.js"],
   "manifest_version": 2
 }
